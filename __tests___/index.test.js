@@ -1,6 +1,4 @@
-function testFunction (num1,num2){
-    return num1 + num2;
-}
+const { testFunction } = require('../index');
 
 test("return a value when two nummers make this sum", function () {
     // Arange
